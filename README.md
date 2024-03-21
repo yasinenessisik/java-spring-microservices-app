@@ -40,7 +40,7 @@ Kullanım
 6.  API Gateway'yi başlatın: `cd api-gateway && mvn spring-boot:run`
 7.  Spring Boot Admin Panelini başlatın: `cd spring-boot-admin && mvn spring-boot:run`
 
-Uygulamayı başlattıktan sonra, tarayıcınızdan [localhost:8080](http://localhost:8080) adresine giderek API Gateway aracılığıyla uygulamaya erişebilirsiniz.
+Uygulamayı başlattıktan sonra, tarayıcınızdan [localhost:8088](http://localhost:8088) adresine giderek API Gateway aracılığıyla uygulamaya erişebilirsiniz.
 
 Katkıda Bulunma
 ---------------
