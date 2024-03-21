@@ -28,7 +28,7 @@ Kullanılan Teknolojiler
 *   **API Gateway:** Gelen istekleri yönlendirir ve güvenlik katmanı sağlar.
 *   **Spring Boot Admin:** Uygulamaların durumunu izlemek ve yönetmek için bir araç.
 *   **Docker:** Uygulamaların konteynerize edilmesi ve dağıtılması için kullanılır.
-
+![Image Description]([image_url](https://github.com/yasinenessisik/java-spring-microservices-app/blob/main/a.drawio.png))
 Kullanım
 --------
 
