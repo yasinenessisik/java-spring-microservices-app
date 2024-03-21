@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/351f1522-c379-49d3-8ced-1e6b482c33b0/console_1.sql" dialect="MySQL" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/74f3b229-2359-4bde-851f-bd122ad8872b/console_1.sql" dialect="CassandraQL" />
+  </component>
+</project>
