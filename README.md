@@ -32,7 +32,7 @@ Kullanılan Teknolojiler
 Kullanım
 --------
 
-1.  Projeyi klonlayın: `git clone https://github.com/sizin-kullanici-adi/sizin-proje-adi.git`
+1.  Projeyi klonlayın: `git clone https://github.com/cercaslusaj/ava-spring-microservices-app.git`
 2.  Ana dizine gidin: `cd your-project-directory`
 3.  Docker kullanarak gerekli servisleri başlatın: `docker-compose up -d`
 4.  Ticket Servisi'ni başlatın: `cd ticket-service && mvn spring-boot:run`
