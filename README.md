@@ -53,12 +53,7 @@ Katkılarınızı memnuniyetle karşılıyoruz! Projeye katkıda bulunmak istiyo
 4.  Branch'inizi kendi fork'ünüze pushlayın: `git push origin feature/branch-name`
 5.  Bir Pull Request oluşturun.
 
-Lisans
-------
-
-Bu proje MIT Lisansı altında lisanslanmıştır. Detaylı bilgi için [LICENSE](LICENSE) dosyasına bakınız.
-
 İletişim
 --------
 
-Eğer bir sorunuz varsa, lütfen \[sizin-emailiniz\] adresinden benimle iletişime geçiniz.
+Eğer bir sorunuz varsa, lütfen enessisik@hotmail.com adresinden benimle iletişime geçiniz.
