@@ -1,64 +1,64 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ticket Yönetim Uygulaması</title>
-</head>
-<body>
-    <h1>Ticket Yönetim Uygulaması</h1>
+  Ticket Yönetim Uygulaması
 
-    <p>Bu proje, Spring Cloud altyapısı kullanılarak geliştirilmiş bir mikroservis uygulamasıdır. Aşağıda projenin detayları bulunmaktadır:</p>
+Ticket Yönetim Uygulaması
+=========================
 
-    <h2>Amaç</h2>
-    <p>Bu uygulama, kullanıcıların ticket oluşturabileceği ve yönetebileceği bir sistem sağlar. Spring Cloud kullanılarak, dağıtık sistemler arası iletişim sağlanmıştır.</p>
+Bu proje, Spring Cloud altyapısı kullanılarak geliştirilmiş bir mikroservis uygulamasıdır. Aşağıda projenin detayları bulunmaktadır:
 
-    <h2>Kullanılan Teknolojiler</h2>
-    <ul>
-        <li>Spring Boot</li>
-        <li>Spring Cloud (Feign Client, API Gateway)</li>
-        <li>MySQL</li>
-        <li>Cassandra</li>
-        <li>Docker</li>
-        <li>Maven</li>
-    </ul>
+Amaç
+----
 
-    <h2>Özellikler</h2>
-    <ul>
-        <li><strong>Account Servisi:</strong> Kullanıcı hesaplarının yönetildiği servis. MySQL veritabanını kullanır.</li>
-        <li><strong>Ticket Servisi:</strong> Kullanıcıların ticketlerini oluşturduğu ve yönettiği servis. Cassandra veritabanını kullanır.</li>
-        <li><strong>API Gateway:</strong> Gelen istekleri yönlendirir ve güvenlik katmanı sağlar.</li>
-        <li><strong>Spring Boot Admin:</strong> Uygulamaların durumunu izlemek ve yönetmek için bir araç.</li>
-        <li><strong>Docker:</strong> Uygulamaların konteynerize edilmesi ve dağıtılması için kullanılır.</li>
-    </ul>
+Bu uygulama, kullanıcıların ticket oluşturabileceği ve yönetebileceği bir sistem sağlar. Spring Cloud kullanılarak, dağıtık sistemler arası iletişim sağlanmıştır.
 
-    <h2>Kullanım</h2>
-    <ol>
-        <li>Projeyi klonlayın: <code>git clone https://github.com/sizin-kullanici-adi/sizin-proje-adi.git</code></li>
-        <li>Ana dizine gidin: <code>cd your-project-directory</code></li>
-        <li>Docker kullanarak gerekli servisleri başlatın: <code>docker-compose up -d</code></li>
-        <li>Ticket Servisi'ni başlatın: <code>cd ticket-service &amp;&amp; mvn spring-boot:run</code></li>
-        <li>Account Servisi'ni başlatın: <code>cd account-service &amp;&amp; mvn spring-boot:run</code></li>
-        <li>API Gateway'yi başlatın: <code>cd api-gateway &amp;&amp; mvn spring-boot:run</code></li>
-        <li>Spring Boot Admin Panelini başlatın: <code>cd spring-boot-admin &amp;&amp; mvn spring-boot:run</code></li>
-    </ol>
+Kullanılan Teknolojiler
+-----------------------
 
-    <p>Uygulamayı başlattıktan sonra, tarayıcınızdan <a href="http://localhost:8080">localhost:8080</a> adresine giderek API Gateway aracılığıyla uygulamaya erişebilirsiniz.</p>
+*   Spring Boot
+*   Spring Cloud (Feign Client, API Gateway)
+*   MySQL
+*   Cassandra
+*   Docker
+*   Maven
 
-    <h2>Katkıda Bulunma</h2>
-    <p>Katkılarınızı memnuniyetle karşılıyoruz! Projeye katkıda bulunmak istiyorsanız, lütfen aşağıdaki adımları izleyin:</p>
-    <ol>
-        <li>Bu projeyi forklayın.</li>
-        <li>Yeni bir branch oluşturun: <code>git checkout -b feature/branch-name</code></li>
-        <li>Değişikliklerinizi yapın ve bunları commit edin: <code>git commit -am 'Add some feature'</code></li>
-        <li>Branch'inizi kendi fork'ünüze pushlayın: <code>git push origin feature/branch-name</code></li>
-        <li>Bir Pull Request oluşturun.</li>
-    </ol>
+Özellikler
+----------
 
-    <h2>Lisans</h2>
-    <p>Bu proje MIT Lisansı altında lisanslanmıştır. Detaylı bilgi için <a href="LICENSE">LICENSE</a> dosyasına bakınız.</p>
+*   **Account Servisi:** Kullanıcı hesaplarının yönetildiği servis. MySQL veritabanını kullanır.
+*   **Ticket Servisi:** Kullanıcıların ticketlerini oluşturduğu ve yönettiği servis. Cassandra veritabanını kullanır.
+*   **API Gateway:** Gelen istekleri yönlendirir ve güvenlik katmanı sağlar.
+*   **Spring Boot Admin:** Uygulamaların durumunu izlemek ve yönetmek için bir araç.
+*   **Docker:** Uygulamaların konteynerize edilmesi ve dağıtılması için kullanılır.
 
-    <h2>İletişim</h2>
-    <p>Eğer bir sorunuz varsa, lütfen [sizin-emailiniz] adresinden benimle iletişime geçiniz.</p>
-</body>
-</html>
+Kullanım
+--------
+
+1.  Projeyi klonlayın: `git clone https://github.com/sizin-kullanici-adi/sizin-proje-adi.git`
+2.  Ana dizine gidin: `cd your-project-directory`
+3.  Docker kullanarak gerekli servisleri başlatın: `docker-compose up -d`
+4.  Ticket Servisi'ni başlatın: `cd ticket-service && mvn spring-boot:run`
+5.  Account Servisi'ni başlatın: `cd account-service && mvn spring-boot:run`
+6.  API Gateway'yi başlatın: `cd api-gateway && mvn spring-boot:run`
+7.  Spring Boot Admin Panelini başlatın: `cd spring-boot-admin && mvn spring-boot:run`
+
+Uygulamayı başlattıktan sonra, tarayıcınızdan [localhost:8080](http://localhost:8080) adresine giderek API Gateway aracılığıyla uygulamaya erişebilirsiniz.
+
+Katkıda Bulunma
+---------------
+
+Katkılarınızı memnuniyetle karşılıyoruz! Projeye katkıda bulunmak istiyorsanız, lütfen aşağıdaki adımları izleyin:
+
+1.  Bu projeyi forklayın.
+2.  Yeni bir branch oluşturun: `git checkout -b feature/branch-name`
+3.  Değişikliklerinizi yapın ve bunları commit edin: `git commit -am 'Add some feature'`
+4.  Branch'inizi kendi fork'ünüze pushlayın: `git push origin feature/branch-name`
+5.  Bir Pull Request oluşturun.
+
+Lisans
+------
+
+Bu proje MIT Lisansı altında lisanslanmıştır. Detaylı bilgi için [LICENSE](LICENSE) dosyasına bakınız.
+
+İletişim
+--------
+
+Eğer bir sorunuz varsa, lütfen \[sizin-emailiniz\] adresinden benimle iletişime geçiniz.
